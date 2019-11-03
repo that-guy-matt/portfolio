@@ -1,0 +1,80 @@
+/*########## VARIABLES ##########*/
+
+$main-color: #445877;
+$secondary-color: #92CCCE;
+$cta: #ff9700;
+$black: #1C1D21;
+$white: #EEEEF7;
+
+/* will update these later */
+$font-head: sans-serif;
+$font-main: sans-serif;
+
+/*########## BASE STYLES ##########*/
+
+body {
+  color: $black;
+  background-color: $secondary-color;
+}
+
+a {
+  color: $white;
+
+  &:hover{
+    color: $secondary-color;
+  }
+}
+
+i {
+  color: inherit;
+}
+
+/*########## LAYOUT STYLES ##########*/
+
+.card {
+  background-color: $white;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.navbar {
+  background-color: $main-color;
+}
+
+.jumbotron {
+  background-color: $white;
+  height: 100vh;
+}
+
+.project-head {
+  width: 100%;
+  text-align: center;
+  font-size: 3em;
+}
+
+#contact {
+  color: $white;
+  height: 80vh;
+  width: 100%;
+  background-color: $main-color;
+  padding: 0 2rem;
+
+  #contact-text {
+    font-size: 4em;
+  }
+
+  .nav-item {
+    font-size: 1.6em;
+  }
+}
+
+footer {
+  padding: 2rem;
+  background-color: $main-color;
+  border-top: 3px solid $secondary-color;
+  color: $white;
+
+  .look-here {
+    color: $cta;
+  }
+}

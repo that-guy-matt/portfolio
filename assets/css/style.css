@@ -1,0 +1,66 @@
+/*########## VARIABLES ##########*/
+/* will update these later */
+/*########## BASE STYLES ##########*/
+body {
+  color: #1C1D21;
+  background-color: #92CCCE;
+}
+
+a {
+  color: #EEEEF7;
+}
+a:hover {
+  color: #92CCCE;
+}
+
+i {
+  color: inherit;
+}
+
+/*########## LAYOUT STYLES ##########*/
+.card {
+  background-color: #EEEEF7;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.navbar {
+  background-color: #445877;
+}
+
+.jumbotron {
+  background-color: #EEEEF7;
+  height: 100vh;
+}
+
+.project-head {
+  width: 100%;
+  text-align: center;
+  font-size: 3em;
+}
+
+#contact {
+  color: #EEEEF7;
+  height: 80vh;
+  width: 100%;
+  background-color: #445877;
+  padding: 0 2rem;
+}
+#contact #contact-text {
+  font-size: 4em;
+}
+#contact .nav-item {
+  font-size: 1.6em;
+}
+
+footer {
+  padding: 2rem;
+  background-color: #445877;
+  border-top: 3px solid #92CCCE;
+  color: #EEEEF7;
+}
+footer .look-here {
+  color: #ff9700;
+}
+
+/*# sourceMappingURL=style.css.map */
